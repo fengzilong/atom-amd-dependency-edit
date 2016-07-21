@@ -1,9 +1,14 @@
 {
   "name": "amd-dependency-edit",
   "main": "./lib/amd-dependency-edit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Edit amd-like dependencies in commonjs style",
-  "keywords": ["amd", "edit", "dependency", "commonjs"],
+  "keywords": [
+    "amd",
+    "edit",
+    "dependency",
+    "commonjs"
+  ],
   "activationCommands": {
     "atom-workspace": "amd-dependency-edit:toggle"
   },
