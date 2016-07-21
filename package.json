@@ -7,7 +7,8 @@
   "activationCommands": {
     "atom-workspace": "amd-dependency-edit:toggle"
   },
-  "repository": "https://github.com/atom/amd-dependency-edit",
+  "repository": "https://github.com/fengzilong/atom-amd-dependency-edit",
+  "author": "fengzilong",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
