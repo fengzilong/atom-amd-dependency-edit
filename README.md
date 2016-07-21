@@ -2,7 +2,8 @@
 
 > edit amd-like dependencies in commonjs style
 
-only support following amd style currently, which define accept two argument, first is an array, second is an function
+only support following amd style currently.
+`define` only accepts two argument, first is `array`, second is `function`
 
 ```js
 define(
