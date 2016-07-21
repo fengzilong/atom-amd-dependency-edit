@@ -2,10 +2,10 @@
 
 > edit amd-like dependencies in commonjs style
 
-<img src="https://github.com/fengzilong/atom-amd-dependency-edit/blob/master/screenshot.gif?raw=true" alt="screenshot" width="500">
+<img src="https://github.com/fengzilong/atom-amd-dependency-edit/blob/master/screenshot.gif?raw=true" alt="screenshot" width="800">
 
-only support following amd style currently.
-`define` only accepts two argument, first is `array`, second is `function`
+only support following structure currently.
+`define` accepts two arguments, first is `array`, second is `function`
 
 ```js
 define(
@@ -19,7 +19,7 @@ function( a, b, c, d ) {
 });
 ```
 
-Code above will be transformed into following at first time
+Code above will be transformed into following code at first time
 
 ```js
 var a = require( 'path/to/a' );
@@ -28,9 +28,9 @@ var c = require( 'path/to/c' );
 var d;
 ```
 
-Try to edit source code or generated code, they will be synced automatically on next change.
+Try to edit source code or generated code, both will be synced automatically when code changes.
 
-Enjoy it ;)
+Enjoy ;)
 
 ## License
 
