@@ -1,0 +1,19 @@
+{
+  "name": "amd-dependency-edit",
+  "main": "./lib/amd-dependency-edit",
+  "version": "0.0.0",
+  "description": "Edit amd-like dependencies in commonjs style",
+  "keywords": ["amd", "edit", "dependency", "commonjs"],
+  "activationCommands": {
+    "atom-workspace": "amd-dependency-edit:toggle"
+  },
+  "repository": "https://github.com/atom/amd-dependency-edit",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "falafel": "^1.2.0",
+    "loophole": "^1.1.0"
+  }
+}

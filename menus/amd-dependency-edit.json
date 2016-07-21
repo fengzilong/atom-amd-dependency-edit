@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle amd-dependency-edit",
+        "command": "amd-dependency-edit:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "amd-dependency-edit",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "amd-dependency-edit:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
