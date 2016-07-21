@@ -2,6 +2,8 @@
 
 > edit amd-like dependencies in commonjs style
 
+<img src="https://github.com/fengzilong/atom-amd-dependency-edit/blob/master/screenshot.gif?raw=true" alt="screenshot" width="500">
+
 only support following amd style currently.
 `define` only accepts two argument, first is `array`, second is `function`
 
@@ -28,6 +30,8 @@ var d;
 
 Try to edit source code or generated code, they will be synced automatically on next change.
 
-It just works. Enjoy it ;)
+Enjoy it ;)
 
-![screenshot]()
+## License
+
+MIT &copy; [fengzilong](https://github.com/fengzilong)
